@@ -1,0 +1,4 @@
+CSS - estilos inline (dentro do próprio HTML)
+
+- não é recomendado, meio que entrou em desuso;
+- aula inicial, apenas para um primeiro contato com o CSS.

@@ -1,0 +1,16 @@
+Estilos Externos
+
+Finalmente o CSS.
+
+/*tudo que começa com @ é uma regra dentro do CSS */;
+/*uma página HTML pode ter mais de uma página CSS*/; 
+/**/ é config de comentário dentro do CSS;
+Hierarquia de Estilos:
+1 - inline (dentro da tag);
+2 - local/interno (dentro da head);
+3 - externo (dentro do CSS).
+
+Evitar usar Inline. Usar somente se for uma coisa muito específica ou pontual. Exemplo: alinhar um link em um lugar específico.
+O interno é usado para estilos pequenos.
+Exemplo: Mudar a fonte ou cor de parágrafos no Index.
+O externo pode usar de com força.

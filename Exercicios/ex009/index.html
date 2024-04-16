@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1>
+    <h2>Listas Ordenadas (OL)</h2>
+    <ol type="1" start="1">  <!-- Lista Ordenada(Ordered List) - organizada com números iniciando no nº 1-->
+        <li>Acordar</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Tomar banho</li>
+    </ol>
+    <ol type="A" start="3"> <!--OL - organizada com letras iniciando a partir da letra 'c'-->
+        <li>Trocar de roupa</li>
+        <li>Arrumar a mochila</li>
+        <li>Sair de casa</li>
+    </ol>
+    <h2>Listas Não Ordenadas (UL)</h2>
+    <h3>Lista de Compras</h3>
+    <ul type="square"> <!-- type=disk, circle, square-->
+        <li>Pão</li>
+        <li>Verduras</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+        <li>Café</li>
+    </ul>
+    <h2>Minha Linguagens Favoritas</h2> <!-- Aninhamento de Listas-->
+    <ol type="1">
+        <li>Antigas</li>
+            <ol>
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+                <li>Fortran</li>
+            </ol>
+        <li>Novas</li>
+            <ol type="a" start="4">
+                <li>Python</li>
+                <li>PHP</li>
+                <li>JavaScript</li>
+            </ol>
+    </ol>
+    <h2> Filmes Favoritos por Categoria</h2>
+    <ul>
+        <li><h3>Ação</h3></li>
+            <ul type="square">
+                <li>Top Gun: Maverick</li>
+                <li>John Wick (2014)</li>
+                <li>Círculo de Fogo</li>
+                
+            </ul>
+        <li><h3>Aventura/Fantasia</h3></li>
+            <ul type="square">
+                <li>Harry Potter</li>
+                <li>Avatar (2009)</li>
+                <li>Star Wars: Rogue One</li>
+            </ul>
+        <li><h3>Terror/Suspense</h3></li> <!-- DICA! Para alterar várias linha de uma vez, segurar a tecla ALT e clicar nas linhas para modificação-->
+            <ul type="square">
+                <li>Alien: O oitavo passageiro</li>
+                <li>Invocação do Mal (2013)</li>
+                <li>Hereditário</li>
+            </ul>
+    </ul>
+    <h2>Lista de Definição (DL)</h2>
+    <dl>
+        <dt>HTML</dt> <!--Definição do Termo(Definition Term)-->
+        <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd> <!-- Definição da Descrição(definitio Description)-->
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação de design de um site.</dd>
+    </dl>
+    <!--Dica para colocar várias tags de uma vez:
+    1º coloque a tag principal e o sinal '>':
+        ol>
+    2º selecione outra tag, coloque o sinal de multiplicação(*) e selecione a quantidade de vezes para se criar as tags:
+        ol>li*4
+            <ol>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ol>
+    e voilá-->
+    
+</body>
+</html>

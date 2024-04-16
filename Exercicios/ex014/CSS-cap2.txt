@@ -1,0 +1,14 @@
+Estilos CSS Internos
+
+Basicamente, pode-se usar estilos dentro do próprio CSS, DESDE QUE seja em uma área própria dentro da tag HEAD
+<head>
+	<meta>
+	<meta>
+	<title></title>
+	<style> </style>
+	
+</head>
+
+Desvantagens:
+	- O estilo ocupa muito mais espaço que o próprio conteúdo;
+	- Não é customizável para outros documentos. Se um site tiver várias páginas, será preciso modificar todos eles.

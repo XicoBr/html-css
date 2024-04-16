@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 {
+            background-color: aqua;
+            height: 300px;
+            width: 300px;
+
+            border: 10px solid darkslategray;
+            /*border shorthand:
+            width, style, color*/
+
+
+            padding: 10px;
+            margin: 20px auto 40px auto;
+            outline: 5px dashed salmon;/*é uma config que fica dentro da margem. Não aumenta a margem, mesmo que seu tamanho seja maior*/
+            
+        }
+        a {
+            border: 10px solid blueviolet;/*shorthand: width, style, color*/
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de Caixa box-level (h1)</h1>    
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level.</a>Vamos ver como funciona.</p>
+</body>
+</html>

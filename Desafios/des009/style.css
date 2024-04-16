@@ -1,0 +1,31 @@
+.class-for-index {
+    font-size: 20px;
+    background-color: rgb(102, 23, 175);
+    color: yellow;
+    text-align: center;
+}
+.class-for-page {
+    color: yellow;
+    font-size: 30px;
+    background-color: rgb(102, 23, 175);
+    text-align: center;
+}
+#pp1 {
+    width: 15px;    
+    border-width: 6px;
+    border-radius: 0%;    
+    float: right;
+    border-style: dashed;
+    
+}
+.link{
+    color: gold;
+
+    border-bottom: 0%;
+}
+.link:hover {
+    color: bisque;
+}
+.video {
+    float: center;
+}

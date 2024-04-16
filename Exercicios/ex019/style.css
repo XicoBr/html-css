@@ -1,0 +1,34 @@
+@charset "UTF-8";
+/*
+HTML == id; CSS == #
+HTML == class; CSS == .
+id sobrepõe as configurações de class
+id - identifica apenas um elemento por página
+class - identifica vários elementos
+pode-se aplicar mais de uma class para um mesmo elemento. Ex:
+<h1 clas="avancado destaque"> aplica a class avancado e a class destaque para o h1 
+*/
+body{
+    background-color: #00ffff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: brown;
+}
+#principal {
+    text-align: center;
+    background-color: #008C91;
+    color: white;
+}
+h2 {
+    color: #006063;
+}
+h2.basico {
+    color: rgb(149, 47, 47)
+}
+.avancado {
+    color:crimson;
+}
+.intermediario {
+    color:rgb(115, 21, 203);
+}

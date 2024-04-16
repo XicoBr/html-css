@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formatações pt. 2</title>
+</head>
+<body>
+    <h1>Outras Formatações</h1>
+    <h2>Código-fonte e Pré-formatação</h2>
+    <p>O comando <code>document.getElementeById('teste')</code> é escrito em linguagem JavaScript. Utiliza a tag &lt;code&gt;.</p> <!-- Comando fonte monespaçada(<code>): Ideal para usar em códigos
+    -->
+    <p>O código abaixo utiliza a tag de Pré-Formatação &lt;pre&gt; juntamente com a tag &lt;code&gt;, fazendo com que a página represente exatamente o texto que está no código HTML, levando em conta seus espaços, quebras de linha e etc.</p>
+    <pre> <!--a tag <pre> é utilizada para ordenar o texto exatamente como no código HTML, levando em conta suas quebras de linha, etc--> 
+        <code>
+    num = int(input("Digite um número: "))
+    if num % 2 == 0:
+        print(f'O número {num} é par.')
+    else:
+        print(f'O número {num} é ímpar.')
+        </code>
+    </pre>
+    <h2>Citações simples (sem quebras)</h2>
+    <p><q>Como diria o pai de um amigo: o computador é um burro muito rápido.</q> Utiliza a tag &lt;q&gt; (quote).</p>
+    <h2>Citações completas</h2>
+    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+    <blockquote cite="link_referencia"> <!--o 'cite' guarda a referência de onde a citação foi retirada para os mecanismos de busca(google,yahoo, etc) identificarem de onde veio a citação-->
+        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+    </blockquote> <!--o blockquote faz uma citação mais à direita do texto-->
+    <h2>Abreviações</h2> <!--Mostra um pop-up do significado da sigla-->
+    <p>Estou estudando <abbr title="Hypertext Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheet">CSS</abbr>. Estou adorando!</p>
+    <h2>Texto Invertido</h2>
+    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML</bdo></p> <!--dir = direção = (right to left(rtl) ou left to right(ltr))-->
+</body>
+</html>

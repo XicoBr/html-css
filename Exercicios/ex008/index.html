@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="bnegritoIco.png" type="image/x-icon">
+    <title>Formatação de Textos</title>
+    
+</head>
+<body> 
+           
+    <h1>Principais Formatações</h1>
+    <h2>Negrito / Destaque</h2>
+    <p>Nessa frase temos um <b>termo em negrito</b> (não semântico) usando a tag <b>&lt;b&gt;</b> .</p> <!-- &lt; = <  &gt; = > -->
+    <p>Nessa frase temos um <strong>termo em destaque</strong> (semântico)  usando <b>&lt;strong&gt</b>;.</p>
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag <b>&lt;i&gt</b>; (não semântica)</p> <!--ctrl + shift + p = abre uma janela para selecão de tags. Usar Wrap with Abbreviation para selecionar um texto e envelopar com a tag desejada (no caso, tag i para italico). 1: seleciona o texto; 2: abre a janela com o atalho; 3: Selecione o comando Wrap with abbreviation; 4: Digite a palavra da tag e aperte enter.-->
+    <p>Nessa frase, temos um <em>termo em ênfase</em> (semântico) usando a tag <b>&lt;em&gt;</b>.</p>
+    <h2>Principais Formatações</h2>
+    <p>Podemos criar um <mark>texto marcado</mark> usando a tag &lt;mark&gt;.</p>
+    <p>Também podemos marcar <mark style="background-color:slateblue">um texto</mark> usando o comando 'mark style'.</p>
+    <!--Podemos setar todas as config da tag mark para englobar TODAS as marcações. É só fazer o seguinte:
+    <style>
+        mark {
+            background-color: cor_desejada;
+        }
+    </style> 
+    e voilá. Lembrando que essa config é feita no Cabeçalho(Head) da página--> 
+    <h2>Texto Grande e Pequeno</h2>
+    <p>Estamos criando um <big>texto grande</big> (em desuso atualmente) e um <small>texto pequeno</small> nesse parágrafo usando &lt;big&gt; e &lt;small&gt;, respectivamente.</p>
+    <h2>Texto Deletado</h2>
+    <p>Podemos marcar um <del>texto como excluído</del> utilizando a tag &lt;del&gt; para indicar que ele deve ser lido, mas não considerado.</p>
+    <h2>Texto Inserido</h2>
+    <p>Podemos marcar um <ins>texto como inserido</ins> utilizando a tag &lt;ins&gt; (semântico) para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+    <p>Existe também o <u>sublinhado</u> utilizando a tag &lt;u&gt; (não semântico).</p>
+    <h2>Texto Sobrescrito e Subscrito</h2>
+    <p>O <sup>SOBRESCRITO</sup> é usado para inserir fórmulas matemáticas, por exemplo uma potenciação, utilizando a tag &lt;sup&gt;. X<sup>2</sup></p>
+    <p>O <sub>SUBSCRITO</sub> é utilizado para fórmulas químicas utilizando a tag &lt;sub&gt;. H<sub>2</sub>0</p>
+</body>
+</html>
